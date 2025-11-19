@@ -16,6 +16,7 @@ Setup (Tested on Python 3.10 Conda + macOS):
   - Convert Whisper JSON (infantlabtask.json) into transcript.csv
 
 Files:
+
 yolov8infantlab.py      – Main script (YOLO tracking + transcript conversion)
 
 desk_scene.mov          – Input 1-minute desk scene video
