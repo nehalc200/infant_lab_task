@@ -7,6 +7,8 @@ This repository contains my implementation of the take-home task for the UCSD In
 
 Setup (Tested on Python 3.10 Conda + macOS):
 - Run this script
+  - git clone https://github.com/nehalc200/infant_lab_task.git
+  - cd infant_lab_task
   - pip install ultralytics opencv-python pandas
   - python yolov8infantlab.py
 - This will:
