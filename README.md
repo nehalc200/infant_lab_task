@@ -17,16 +17,27 @@ Setup (Tested on Python 3.10 Conda + macOS):
 
 Files:
 yolov8infantlab.py      – Main script (YOLO tracking + transcript conversion)
+
 desk_scene.mov          – Input 1-minute desk scene video
+
 infantlabtask.m4a       – Audio narration clip
+
 infantlabtask.json      – Whisper transcription export
+
 transcript.csv          – Timestamped transcript (start, end, text)
-detections.csv          – YOLOv8 detection results (frame_number, class, confidence, bbox)
+
+detections.csv          – YOLOv8 detection results (frame_number, class, confidence, bounding box)
+
 annotation1.png         – CVAT correction screenshot (misclassified object fixed)
+
 annotation2.png         – Another sample corrected frame
+
 annotation3.png         – Additional corrected annotation example
+
 runs/                   – YOLO-generated annotated video output folder
+
 yolov8n.pt              – YOLOv8 model weights (included for reproducibility)
+
 
 Choices:
 - Used model.track() with ByteTrack to maintain consistent object identity across frames, making predictions easier to interpret for continuous video.
